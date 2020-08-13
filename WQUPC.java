@@ -4,7 +4,7 @@ public class WQUPC {
     private int size[];
 
     public WQUPC(int N) {
-        // Add 2 to use a top now and bottom node to easily find if it perculates
+        // Add 2 to use a top node and bottom node to easily find if it perculates
         this.parent = new int[N * N + 2];
         this.size = new int[N * N + 2];
         for(int i = 0; i < this.parent.length; i++) {
